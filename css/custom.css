@@ -3,17 +3,17 @@
 1. Add your custom Css styles below
 2. Place the this code in your template:
 
- <link href="css/custom.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
 
 */
 
 #hero h1 {
   font-size: 80px;
-    font-weight: 700;
-    line-height: 80px;
-    margin-bottom: 30px;
-    color: #fff;
-    text-shadow: 4px 4px #1a1a1a;
+  font-weight: 700;
+  line-height: 80px;
+  margin-bottom: 30px;
+  color: #fff;
+  text-shadow: 4px 4px #1a1a1a;
 }
 
 #hero h3 {
@@ -43,7 +43,13 @@
   border: none !important;
 }
 
+
 .testimonial.testimonial-single .testimonial-item {
+  line-height: 28px;
+}
+
+@media (min-width: 768px) {
+  .testimonial.testimonial-single .testimonial-item {
     padding: 30px 200px;
-    line-height: 28px;
+  }
 }
