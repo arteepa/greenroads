@@ -1,5 +1,5 @@
 #hero h1 {
-  font-size: 80px;
+  font-size: 66px;
   font-weight: 700;
   line-height: 80px;
   margin-bottom: 30px;
@@ -28,12 +28,16 @@
   background-color: #fff !important;
   color: #1a1a1a !important;
   font-weight: bold !important;
-  font-size: 18px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  font-size: 26px !important;
+  padding: 20px 20px !important;
+  margin-top:6px !important;
   border: none !important;
 }
 
+.cta-cotiza {
+  padding: 8px 18px;
+  font-size: 32px;
+}
 
 .testimonial.testimonial-single .testimonial-item {
   line-height: 28px;
@@ -43,6 +47,10 @@
   .testimonial.testimonial-single .testimonial-item {
     padding: 30px 200px;
   }
+}
+
+.testimonial-item > p {
+line-height: 26px !important;
 }
 
 .btn-contact {
@@ -73,4 +81,33 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+.contact__state {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.contact__type {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.contact__type > i {
+  color:#ccffde !important;
+  margin-right: 4px;
+}
+
+.contact__container {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.contact__item > a {
+  font-weight: bold;
+}
+
+#header .header-inner #logo a .logo-default {
+  color: #028430;
 }
