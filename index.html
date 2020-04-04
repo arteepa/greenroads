@@ -11,6 +11,7 @@
   <link href="css/plugins.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/custom.css" rel="stylesheet">
+  <link href="css/jquery.fancybox.css" rel="stylesheet">
 </head>
 
 <body>
@@ -67,7 +68,6 @@
                   <li><a href="#modelos">MODELOS</a></li>
                   <li><a href="#galeria">FOTOS</a></li>
                   <li><a href="#nosotros">SOBRE NOSOTROS</a></li>
-                  <li><a href="distribuidores.html">DISTRIBUIDORES</a></li>
                   <li><a href="#contacto" type="button" class="btn btn-contact">Contáctanos</a></li>
                 </ul>
               </nav>
@@ -81,11 +81,12 @@
 
     <!-- Hero -->
     <div id="hero" class="inspiro-slider">
-      <div class="slide" style="background-image:url('img/hero/2.jpg');">
+      <div class="slide" style="background-image:url('img/hero/3.jpg');">
         <div class="container">
-          <div class=" text-right">
-            <h1>Siempre verde, <br> y sin esfuerzo...</h1>
-            <h3>...con pasto sintético de Green Roads.</h3>
+          <div class="hero-slogan text-right">
+            <h1 class="green-highlight">Siempre verde,</h1><br>
+            <h1 class="green-highlight">sin esfuerzo...</h1><br>
+            <h3 class="white-highlight">...con pasto sintético de Green Roads.</h3>
           </div>
         </div>
       </div>
@@ -119,8 +120,8 @@
 
           <!-- features box -->
           <div class="col-lg-4">
-            <img src="img/features/water.jpg" class="img-fluid m-b-20">
-            <h4>Ahorra Dinero</h4>
+            <img src="img/features/ahorra.jpg" class="img-fluid m-b-20">
+            <h4>Ahorra Dinero y Tiempo</h4>
             <p>No desperdicies Agua, ni gastes en Jardineros. Nuestro pasto <b>es una inversión, no un gasto</b>.</p>
           </div>
           <!-- end: features box -->
@@ -128,7 +129,7 @@
           <!-- features box -->
           <div class="col-lg-4">
             <img src="img/features/enjoy.jpg" class="img-fluid m-b-20">
-            <h4>Disfruta tu Tiempo</h4>
+            <h4>Disfrútalo</h4>
             <p>No gastes horas en cuidar tu pasto. Nuestro producto <b>no necesita mantenimiento</b>.</p>
           </div>
           <!-- end: features box -->
@@ -148,10 +149,10 @@
             <p style="font-size:18px;">Fibras con 3 tonalidades de verde y un rizado café que generan un apariencia 100% real. </p>
           </div>
         </div>
-        <div class="row">
+        <div class="row m-b-60">
           <!-- features box -->
           <div class="col-lg-3">
-            <img src="img/products/1.jpg" class="img-fluid m-b-20">
+            <img src="img/types/residencial.jpg" class="img-fluid m-b-20">
             <h4>Residencial</h4>
             <p><b>Ideal para jardines interiores y exteriores.</b> Cómodo para tu familia y mascotas por sus fibras suaves.</p>
           </div>
@@ -159,7 +160,7 @@
 
           <!-- features box -->
           <div class="col-lg-3">
-            <img src="img/products/1.jpg" class="img-fluid m-b-20">
+            <img src="img/types/comercial.jpg" class="img-fluid m-b-20">
             <h4>Comercial</h4>
             <p><b>Ideal para zonas alto tráfico.</b> Impresiona a tus clientes con un look natural y único.</p>
           </div>
@@ -167,26 +168,48 @@
 
           <!-- features box -->
           <div class="col-lg-3">
-            <img src="img/products/1.jpg" class="img-fluid m-b-20">
+            <img src="img/types/deportivo.jpg" class="img-fluid m-b-20">
             <h4>Deportivo</h4>
-            <p><b>Certificado por <span style="color: blue;">FIFA®</span>.</b> Una inversión inteligente*. Jugabilidad y aspecto increíble sin mantenimiento.  </p>
+            <p><b><span style="color: #0E3A95;">Certificado por FIFA®</span>.</b> Una inversión inteligente*. Jugabilidad y aspecto increíble sin mantenimiento.  </p>
             <p style="font-size:12px;">* Asesoría Personalizada Gratuita</p>
           </div>
           <!-- end: features box -->
           <!-- features box -->
           <div class="col-lg-3">
-            <img src="img/products/1.jpg" class="img-fluid m-b-20">
+            <img src="img/types/decorativo.jpg" class="img-fluid m-b-20">
             <h4>Decorativo</h4>
             <p><b>No hay límites.</b> Úsalo para decorar cualquier área: Paredes, techos, jardineras, o lo que imagines.</p>
           </div>
           <!-- end: features box -->
         </div>
         <!-- end features box -->
-        <div class="col-lg-12 text-center" style="margin-bottom: 40px;">
-          <p style="font-size:18px;"> <b>8 años de Garantía</b> <br> <span style="font-size:14px;">Contra Decoloración</span></p>
 
-          <p style="font-size:18px;">(UV Defender) ~ (Health Protector) ~ (Fire Retardant)</p>
-          <p style="font-size:18px;">(FIFA)</p>
+        <div id="garantia" class="col-lg-12 text-right" style="margin-bottom: 40px;">
+          <div class="row">
+            <div class="col-md-3 offset-md-1 text-center garantia-8">
+              <p>
+                <b>8 años de Garantía</b>
+                <br>
+                <span style="font-size:12px;">Contra Decoloración</span>
+              </p>
+            </div>
+            <div class="col-md-1 col-xs-4">
+              <img class="img-fluid" src="img/cert-uv.png" alt="UV" />
+            </div>
+            <div class="col-md-1 col-xs-4">
+              <img class="img-fluid" src="img/cert-health_protector.png" alt="Health Protector" />
+            </div>
+            <div class="col-md-1 col-xs-4">
+              <img class="img-fluid" src="img/cert-fire_resistant.png" alt="Fire Retardant" />
+            </div>
+            <div class="col-md-2 col-xs-4 fifa-aprueba">
+                Aprobado por FIFA®
+            </div>
+            <div class="col-md-1 col-xs-4">
+                <img class="img-fluid" src="img/cert-fifa.jpg" alt="Fifa Approved" />
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -195,16 +218,20 @@
   <!-- end: Our numbers -->
 
   <section id="galeria" class="no-padding">
-
+    <a href="img/gallery/8.jpg" data-fancybox data-caption="Caption for single image">
+      <img src="img/gallery/8.jpg" alt="">
+    </a>
     <div id="portfolio" class="grid-layout portfolio-4-columns" data-margin="0">
 
       <div class="portfolio-item img-zoom ct-photography ct-marketing ct-media">
         <div class="portfolio-item-wrap">
           <div class="portfolio-image">
-            <a href="#"><img src="img/gallery/8.jpg" alt=""></a>
+            <a href="img/gallery/8.jpg" data-fancybox data-caption="Caption for single image">
+              <img src="img/gallery/8.jpg" alt="">
+            </a>
+
           </div>
           <div class="portfolio-description">
-            <a title="Paper Pouch!" data-lightbox="image" href="img/gallery/8.jpg" class="btn btn-light btn-rounded">Zoom</a>
           </div>
         </div>
       </div>
@@ -216,7 +243,6 @@
             <a href="#"><img src="img/gallery/7.jpg" alt=""></a>
           </div>
           <div class="portfolio-description">
-            <a title="Paper Pouch!" data-lightbox="image" href="img/gallery/7.jpg" class="btn btn-light btn-rounded">Zoom</a>
           </div>
         </div>
       </div>
@@ -228,7 +254,6 @@
             <a href="#"><img src="img/gallery/6.jpg" alt=""></a>
           </div>
           <div class="portfolio-description">
-            <a title="Paper Pouch!" data-lightbox="image" href="img/gallery/6.jpg" class="btn btn-light btn-rounded">Zoom</a>
           </div>
         </div>
       </div>
@@ -240,7 +265,6 @@
             <a href="#"><img src="img/gallery/5.jpg" alt=""></a>
           </div>
           <div class="portfolio-description">
-            <a title="Paper Pouch!" data-lightbox="image" href="img/gallery/5.jpg" class="btn btn-light btn-rounded">Zoom</a>
           </div>
         </div>
       </div>
@@ -252,7 +276,6 @@
             <a href="#"><img src="img/gallery/4.jpg" alt=""></a>
           </div>
           <div class="portfolio-description">
-            <a title="Paper Pouch!" data-lightbox="image" href="img/gallery/4.jpg" class="btn btn-light btn-rounded">Zoom</a>
           </div>
         </div>
       </div>
@@ -264,7 +287,6 @@
             <a href="#"><img src="img/gallery/3.jpg" alt=""></a>
           </div>
           <div class="portfolio-description">
-            <a title="Paper Pouch!" data-lightbox="image" href="img/gallery/3.jpg" class="btn btn-light btn-rounded">Zoom</a>
           </div>
         </div>
       </div>
@@ -276,7 +298,6 @@
             <a href="#"><img src="img/gallery/2.jpg" alt=""></a>
           </div>
           <div class="portfolio-description">
-            <a title="Paper Pouch!" data-lightbox="image" href="img/gallery/2.jpg" class="btn btn-light btn-rounded">Zoom</a>
           </div>
         </div>
       </div>
@@ -288,7 +309,6 @@
             <a href="#"><img src="img/gallery/1.jpg" alt=""></a>
           </div>
           <div class="portfolio-description">
-            <a title="Paper Pouch!" data-lightbox="image" href="img/gallery/1.jpg" class="btn btn-light btn-rounded">Zoom</a>
           </div>
         </div>
       </div>
@@ -299,17 +319,14 @@
 
   <section id="nosotros" class="p-b-20">
     <div class="container">
-      <div class="heading-text heading-section text-center m-b-20">
-        <h2>SOBRE NOSOTROS</h2>
-      </div>
       <div class="row">
         <div class="col-lg-8 center text-center">
           <div class="m-b-40">
-            <p class="lead">
-              Después de miles de metros instalados, nos dimos cuenta que <br>lo que nos mantiene motivados es ver a nuestros clientes sonreir y disfrutar sus espacios renovados por la familia Green Roads.
+            <p class="about-us">
+              <b>Después de miles de metros instalados</b>, nos dimos cuenta que lo que nos mantiene motivados es ver a nuestros clientes sonreir y disfrutar sus espacios renovados por la familia Green Roads.
             </p>
-            <p>Gracias a todos por la confianza y oportunidad.</p>
-            <img alt="" class="img-fluid m-b-40" src="img/team.jpg">
+            <p class="about-us__sub">Gracias a todos por la confianza y oportunidad.</p>
+            <!-- <img alt="" class="img-fluid m-b-40" src="img/team.jpg"> -->
           </div>
         </div>
       </div>
@@ -320,7 +337,9 @@
 
   <section id="testimonios">
     <div class="container">
-      <p>Nuestros clientes.</p>
+      <div class="section-title">
+        <p>Nuestros clientes dicen:</p>
+      </div>
       <div class="carousel testimonial testimonial-single" data-items="1" data-loop="true" data-autoplay="true" data-animate-duration="3000" data-arrows="true" data-animate-in="fadeIn" data-animate-out="fadeOut">
 
         <div class="testimonial-item">
@@ -422,6 +441,7 @@
 <!--Plugins-->
 <script src="js/jquery.js"></script>
 <script src="js/plugins.js"></script>
+<script src="js/jquery.fancybox.js"></script>
 
 <!--Template functions-->
 <script src="js/functions.js"></script>
