@@ -1,0 +1,269 @@
+/* Main Color: #17793e */
+
+#hero h1 {
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 20px;
+  color: #fff;
+  /* text-shadow: 4px 4px #1a1a1a; */
+}
+
+#hero h3 {
+  color: #fff;
+  line-height: 22px
+  /* text-shadow: 2px 2px #1a1a1a; */
+}
+
+.logo-green {
+  color: #17793e;
+}
+
+#first-cta {
+  background-color: #17793e;
+}
+
+#first-cta h3 {
+  color: #fff;
+}
+
+.btn-cotizar {
+  background-color: #fff;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 26px;
+  padding: 10px 20px;
+  line-height: 54px;
+  margin-top:6px;
+  border: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -webkit-appearance: none;
+}
+
+.cta-cotiza {
+  padding: 8px 18px;
+  font-size: 32px;
+}
+
+.testimonial.testimonial-single .testimonial-item {
+  line-height: 28px;
+}
+
+@media (min-width: 768px) {
+  .testimonial.testimonial-single .testimonial-item {
+    padding: 30px 200px;
+  }
+  .show-on-mobile {
+    display: none;
+  }
+}
+
+.testimonial-item > p {
+  line-height: 26px !important;
+}
+
+.btn-contact {
+  border-radius: 5px 5px 5px 5px !important;
+  letter-spacing: .5px;
+  padding: 12px 18px;
+  background-color: #028430;
+  color: #ffffff !important;
+  -webkit-appearance: none;
+  /* cursor: pointer; */
+}
+
+.btn-contact:hover {
+  background-color: #31b961 !important;
+}
+
+#topbar .top-menu > li > a {
+  display: inline-block;
+}
+
+.top-menu-contact_title {
+  font-weight: bold;
+  margin: 0 16px;
+}
+
+.top-menu-contact_separator {
+  margin: 0 24px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contact__state {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.contact__type {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.contact__type > i {
+  color:#ccffde !important;
+  margin-right: 4px;
+}
+
+.contact__container {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+.contact__item > a {
+  font-weight: bold;
+}
+
+#header .header-inner #logo a .logo-default {
+  color: #028430;
+}
+
+.fifa-aprueba {
+  text-align: right;
+  font-weight: bold;
+  line-height: 79px;
+  height: 79px;
+}
+
+.garantia-8 > p {
+  padding-top:19.5px;
+  height:59.5px;
+  color: #484848;
+}
+
+.about-us {
+  color: #4a4a4a;
+  font-size:22px;
+}
+
+.about-us__sub {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #028430;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.section-title > p {
+  font-size: 25px;
+  font-weight: bold;
+  color: #028430;
+}
+.secondary-hero-text {
+  font-size:40px !important;
+}
+
+.portfolio-image {
+  height:240px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#porque h4, #modelos h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2a2a2a;
+}
+
+.anos-garantia {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px !important;
+  line-height: 30px;
+}
+
+.decol {
+  font-size:12px;
+  padding-top: 0px !important;
+  line-height: 1px;
+}
+
+
+.mobile-certs {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mobile-certs > img {
+  width: 30%;
+  padding: 6px;
+}
+
+.logo-gr {
+  display: block;
+  height: 36px !important;
+  line-height: 80px;
+  margin-top:24px;
+}
+
+@media (max-width: 768px) {
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  #topbar {
+    display:none;
+  }
+
+  #hero h1 {
+    font-size:38px;
+    line-height: 40px;
+    margin-bottom: 18px;
+  }
+
+  .secondary-hero-text {
+    font-size:26px !important;
+    line-height: 26px !important;
+  }
+
+  #hero h3 {
+    font-size: 18px;
+  }
+  .mb_p-t-40 {
+    padding-top: 40px;
+  }
+  #porque p, #modelos p {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  #modelos h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .anos-garantia {
+    font-size: 26px !important;
+    line-height: 30px;
+  }
+  .fifa-aprueba {
+    text-align: center;
+    font-size: 22px;
+  }
+  .decol {
+    margin-bottom: 10px !important;
+
+  }
+  .logo-gr {
+    display: block;
+    height: 36px !important;
+    line-height: 80px;
+    margin-top:28px;
+  }
+}
+
+.hero-slogan h1, .hero-slogan h3 {
+  background-color: rgba(30, 120, 64, 0.7);
+  margin:0px!important;
+}
