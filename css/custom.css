@@ -4,7 +4,7 @@
   font-size: 68px;
   font-weight: 700;
   line-height: 46px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #fff;
   /* text-shadow: 4px 4px #1a1a1a; */
 }
@@ -32,7 +32,8 @@
   color: #1a1a1a !important;
   font-weight: bold !important;
   font-size: 26px !important;
-  padding: 20px 20px !important;
+  padding: 0 20px !important;
+  line-height: 54px!important;
   margin-top:6px !important;
   border: none !important;
 }
@@ -50,27 +51,30 @@
   .testimonial.testimonial-single .testimonial-item {
     padding: 30px 200px;
   }
+  .show-on-mobile {
+    display: none;
+  }
 }
 
 .testimonial-item > p {
-line-height: 26px !important;
+  line-height: 26px !important;
 }
 
 .btn-contact {
-    border-radius: 5px 5px 5px 5px !important;
-    letter-spacing: .5px;
-    padding: 12px 18px;
-    background-color: #028430;
-    color: #ffffff !important;
-    /* cursor: pointer; */
+  border-radius: 5px 5px 5px 5px !important;
+  letter-spacing: .5px;
+  padding: 12px 18px;
+  background-color: #028430;
+  color: #ffffff !important;
+  /* cursor: pointer; */
 }
 
 .btn-contact:hover {
-    background-color: #31b961 !important;
+  background-color: #31b961 !important;
 }
 
 #topbar .top-menu > li > a {
-    display: inline-block;
+  display: inline-block;
 }
 
 .top-menu-contact_title {
@@ -152,37 +156,141 @@ html {
 }
 
 .green-highlight {
-    position: relative;
-    color: #FFF;
-    display: inline-block;
+  position: relative;
+  color: #FFF;
+  display: inline-block;
 }
 
 .green-highlight:after {
-    content: attr(data-content);
-    position: absolute;
-    color: #000;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #17793e;
-    z-index: -999;
+  content: attr(data-content);
+  position: absolute;
+  color: #000;
+  bottom: -14px;
+  left: -14px;
+  width: 300%;
+  height: 180%;
+  background-color: #103d21;
+  z-index: -999;
 }
 
 .white-highlight {
-    position: relative;
-    color: #17793e!important;
-    display: inline-block;
+  position: relative;
+  color: #17793e!important;
+  display: inline-block;
 }
 
 .white-highlight:after {
-    content: attr(data-content);
-    position: absolute;
-    color: #000;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    z-index: -999;
+  content: attr(data-content);
+  position: absolute;
+  color: #000;
+  bottom: 0;
+  left: -8px;
+  width: 300%;
+  height: 140%;
+  background-color: #fff;
+  z-index: -999;
+}
+
+.secondary-hero-text {
+  font-size:40px !important;
+}
+
+.portfolio-image {
+  height:240px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#porque h4, #modelos h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2a2a2a;
+}
+
+.anos-garantia {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px !important;
+  line-height: 30px;
+}
+
+.decol {
+  font-size:12px;
+  padding-top: 0px !important;
+  line-height: 1px;
+}
+
+
+.mobile-certs {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mobile-certs > img {
+  width: 30%;
+  padding: 6px;
+}
+
+.logo-gr {
+  display: block;
+  height: 36px !important;
+  line-height: 80px;
+  margin-top:24px;
+}
+
+@media (max-width: 768px) {
+
+  .hide-on-mobile {
+    display: none;
+  }
+
+  #topbar {
+    display:none;
+  }
+
+  #hero h1 {
+    font-size:38px;
+    line-height: 40px;
+    margin-bottom: 18px;
+  }
+
+  .secondary-hero-text {
+    font-size:26px !important;
+    line-height: 26px !important;
+  }
+
+  #hero h3 {
+    font-size: 18px;
+  }
+  .mb_p-t-40 {
+    padding-top: 40px;
+  }
+  #porque p, #modelos p {
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  #modelos h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .anos-garantia {
+    font-size: 26px !important;
+    line-height: 30px;
+  }
+  .fifa-aprueba {
+    text-align: center;
+    font-size: 22px;
+  }
+  .decol {
+    margin-bottom: 10px !important;
+
+  }
+  .logo-gr {
+    display: block;
+    height: 36px !important;
+    line-height: 80px;
+    margin-top:28px;
+  }
 }
