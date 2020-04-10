@@ -293,4 +293,8 @@ html {
     line-height: 80px;
     margin-top:28px;
   }
+
+  .btn-cotizar {
+    font-size: 22px !important;
+  }
 }
