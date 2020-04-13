@@ -159,43 +159,6 @@ html {
   font-weight: bold;
   color: #028430;
 }
-
-.green-highlight {
-  position: relative;
-  color: #FFF;
-  display: inline-block;
-}
-
-.green-highlight:after {
-  content: attr(data-content);
-  position: absolute;
-  color: #000;
-  bottom: -14px;
-  left: -14px;
-  width: 300%;
-  height: 180%;
-  background-color: #103d21;
-  z-index: -999;
-}
-
-.white-highlight {
-  position: relative;
-  color: #17793e!important;
-  display: inline-block;
-}
-
-.white-highlight:after {
-  content: attr(data-content);
-  position: absolute;
-  color: #000;
-  bottom: 0;
-  left: -8px;
-  width: 300%;
-  height: 140%;
-  background-color: #fff;
-  z-index: -999;
-}
-
 .secondary-hero-text {
   font-size:40px !important;
 }
@@ -244,18 +207,28 @@ html {
   margin-top:24px;
 }
 
+.hero-slogan h1, .hero-slogan h3 {
+  display: inline;
+  background-color: rgba(90, 170, 80, 0.7);
+  line-height: 76px !important;
+  padding: 0 10px;
+}
+
+
 @media (max-width: 768px) {
 
   .hide-on-mobile {
     display: none;
   }
-
+  .hero-slogan h1, .hero-slogan h3 {
+    line-height: 46px !important;
+  }
   #topbar {
     display:none;
   }
 
   #hero h1 {
-    font-size:38px;
+    font-size:35px;
     line-height: 40px;
     margin-bottom: 18px;
   }
@@ -266,7 +239,7 @@ html {
   }
 
   #hero h3 {
-    font-size: 18px;
+    font-size: 16.5px;
   }
   .mb_p-t-40 {
     padding-top: 40px;
